@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    tools:context=".fragment.MonthlyFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TableLayout
+            android:id="@+id/header_tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_margin="15dp"
+            android:gravity="center_vertical">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:id="@+id/month_tv"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hello"
+                    android:textColor="@color/White2"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:background="@color/transparent"
+                    android:id="@+id/calender_ib"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@id/month_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_calendar_today_24"/>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header_tl"
+            android:background="@color/Secondary"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/activity_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Secondary"
+                android:clipToPadding="false"
+                android:paddingBottom="55dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/day_item_background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/dayLabel"
+            android:layout_width="@dimen/day_label_size_events_enabled"
+            android:layout_height="@dimen/day_label_size_events_enabled"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="14sp"
+            tools:text="22" />
+        <ImageView
+            android:id="@+id/dayIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@null"
+            tools:src="@drawable/ic_baseline_circle_24" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/list_item"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:iconTint="@color/Blue"
+        android:title="List"
+        />
+    <item
+        android:id="@+id/notification_item"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:iconTint="@color/Blue"
+        android:title="Notification" />
+</menu>

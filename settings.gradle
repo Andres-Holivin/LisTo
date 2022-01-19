@@ -4,7 +4,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        maven {
+            url 'https://developer.huawei.com/repo/'
+            allowInsecureProtocol = true
+        }
     }
 }
 rootProject.name = "ListTo"
-include ':app'
+include ':ListTo'

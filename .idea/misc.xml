@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/activity_sing_in.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/add_new_popup.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/fragment_monthly.xml" value="0.12318840579710146" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/fragment_notification.xml" value="0.12318840579710146" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/ListTo/src/main/res/layout/hader_bar.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17088607594936708" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/background_bottom_nav.xml" value="0.23755274261603376" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/border_left.xml" value="0.13148148148148148" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/border_top.xml" value="0.12037037037037036" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/custom_row.xml" value="0.1361111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/hader_splash.xml" value="0.152991452991453" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.12320675105485232" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.12320675105485232" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.13205128205128205" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.12037037037037036" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.12320675105485232" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_circle.xml" value="0.1361111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17088607594936708" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/monthly_icon.xml" value="0.17962962962962964" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/navbar_selected.xml" value="0.12222222222222222" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/pink_out_line.xml" value="0.10462962962962963" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/radio_button.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/drawable/toggle_widget_background.xml" value="0.10462962962962963" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/activity_calender.xml" value="0.16" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/activity_home.xml" value="0.2433774834437086" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/activity_monthly.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/add_new_popup.xml" value="0.25" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/calender_view_item.xml" value="0.25" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/day_item.xml" value="0.2" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/event_popup.xml" value="0.22" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_calender.xml" value="0.22" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_calender2.xml" value="0.1054720133667502" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_daily.xml" value="0.13" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_daily_activity.xml" value="0.1111111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_list_todo.xml" value="0.1111111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_monthly.xml" value="0.16" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_monthly_activity.xml" value="0.1111111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/fragment_notofication.xml" value="0.1111111111111111" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/hader_bar.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/month_item.xml" value="0.22" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/layout/notification_item.xml" value="0.33" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447257383966246" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17962962962962964" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17962962962962964" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.17088607594936708" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo_icon.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo_icon2.xml" value="0.2405982905982906" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo_icon2_round.xml" value="0.17222222222222222" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo_icon_round.xml" value="0.1" />
+        <entry key="..\:/new windows/New folder - Copy (2)/Coding/ListTo/app/src/main/res/mipmap-anydpi-v26/ic_logo_round.xml" value="0.17088607594936708" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#A52020"
+    tools:context=".fragment.MonthlyFragment"
+    android:id="@+id/frame_fl"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Primary"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/calender_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <com.applandeo.materialcalendarview.CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:pagesColor="@color/Primary"
+                app:abbreviationsBarColor="@color/Primary"
+                app:abbreviationsLabelsColor="@color/White2"
+                app:anotherMonthsDaysLabelsColor="@color/gray"
+                app:todayLabelColor="@color/Blue"
+                app:type="one_day_picker"
+                app:eventsEnabled="true"
+                app:daysLabelsColor="@color/White2"
+                app:firstDayOfWeek="monday"
+                app:headerColor="@color/Primary" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/activity_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

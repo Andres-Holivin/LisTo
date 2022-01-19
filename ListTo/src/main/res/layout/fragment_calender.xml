@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    tools:context=".fragment.CalenderFragment">
+
+    <LinearLayout
+        android:id="@+id/switch_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.llollox.androidtoggleswitch.widgets.ToggleSwitch
+            android:id="@+id/type_ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:borderRadius="30dp"
+            app:checkedBackgroundColor="@color/Blue"
+            app:checkedTextColor="@color/White2"
+            app:textToggleRight="Monthly"
+            app:textToggleLeft="Daily"
+            app:toggleHeight="35dp"
+            app:toggleWidth="120dp"
+            android:textSize="14sp"
+            app:uncheckedBackgroundColor="@color/Secondary"
+            app:uncheckedTextColor="@color/White2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/switch_ll" />
+
+
+</RelativeLayout>

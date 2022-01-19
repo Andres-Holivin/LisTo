@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/Primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/header_splash"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight=".50">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:text="Hi there! Welcome to"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight=".50">
+        <TextView
+            android:textAlignment="center"
+            android:textColor="@color/White2"
+            android:textSize="14sp"
+            android:paddingHorizontal="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Very simple Things To-Do List.  Helps you to manage yourdaily life, without any hassle! "/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            />
+        <com.huawei.hms.support.hwid.ui.HuaweiIdAuthButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/HuaweiIdAuthButton"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+</LinearLayout>
